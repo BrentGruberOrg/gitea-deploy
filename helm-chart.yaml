@@ -3,7 +3,7 @@ apiVersion: builtin
 kind: HelmChartInflationGenerator
 metadata:
   name: gitea
-name: gitea
+name: gitea-charts/gitea
 namespace: gitea
 releaseName: gitea
 repo: https://dl.gitea.com/charts/
