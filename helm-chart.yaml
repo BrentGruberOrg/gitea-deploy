@@ -1,0 +1,10 @@
+# https://github.com/kubernetes-sigs/kustomize/issues/4593
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: gitea
+name: gitea
+namespace: gitea
+releaseName: gitea
+repo: https://dl.gitea.com/charts/
+valuesFile: values.yaml
