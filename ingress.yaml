@@ -16,4 +16,5 @@ spec:
         backend:
           service:
             name: gitea-http
-            port: 3000
+            port: 
+              number: 3000
